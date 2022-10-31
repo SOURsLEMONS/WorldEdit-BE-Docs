@@ -4,4 +4,6 @@ WorldEdit-BE-Docs的中文版（Chinese version）
 
 SOURsLEMONS对WorldEdit-BE文档的翻译
 
-[docs/index.md]
+[开始查阅](docs/index.md)  
+
+未更新完
