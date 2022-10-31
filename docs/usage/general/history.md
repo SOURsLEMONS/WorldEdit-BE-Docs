@@ -1,20 +1,20 @@
-# History
+# 历史记录
 
-Almost every operation in WorldEdit is recorded in your [session's](sessions.md) history; more specifically, any action that adds, changes or deletes blocks in your world.
-This includes brush uses, filling areas with blocks, and pasting structures all around the place.
+WorldEdit 中的几乎每个操作都记录在 [用户会话](sessions.md) 的历史记录中。
+更具体地说，任何添加、更改或删除您世界中的方块的操作。 这包括笔刷使用、用方块填充区域以及粘贴结构。
 
-## Undo and Redo
+## 撤消和还原
 
-It's important to know how to undo any actions you've made, intentional or not. You can easily do this with `;undo`, and there's also `;redo` to go forward in history as well. These two commands are also available trigerrable from the [Kit](../kit.md#undo).
+历史记录上也有前进的方向，如何撤消您有意或无意所做的任何操作？你可以很容易地做到这一点，可从 [快捷工具包](../kit.md#undo).中获取「撤消」和「还原」工具，或输入命令。`;undo``;redo`
 
 !!! warning
 
-    Side effects of block changes, such as water flowing, fire spreading and explosions are not recorded and cannot be undone.
+    操作变化的副作用，如水流、火灾蔓延和爆炸，不会被记录下来，也无法撤消。
 
-You can also undo and redo multiple actions at once by specifying how many time to do so. For example `;undo 5` undoes 5 actions.
+您还可以通过命令撤消和还原多个操作。例如输入命令 `;undo 5` 撤消 5 个操作
 
 !!! note
 
-    Sessions can only hold up to 25 of your last actions by default. This can be changed in the addon's config file (see [Configuration](../../configuration.md)).
+    默认情况下，会话最多只能保存25个上一次操作。这可以在插件的配置文件中更改 (请看 [配置](../../configuration.md)).
 
-Finally, you can clear your entire history with `;clearhistory`.
+最后，您可以使用命令清除整个历史记录，输入命令`;clearhistory`
