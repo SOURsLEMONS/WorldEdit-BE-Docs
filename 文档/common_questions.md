@@ -1,33 +1,33 @@
-# Frequently Asked Questions
+# 常见问题
 
-[TOC]
+[目录]
 
-## How do I use this addon?
+## 如何使用这个插件？
 
-The documentation is full of neat information! As a beginner, it's best to start in the [Quick Start page](quick_start.md).
+文档充满了详尽的信息！作为初学者，最好从 [快速入门](quick_start.md) 页面开始 
 
-## Does it work on consoles?
+## 它是否适用于主机平台?
 
-In theory the addon should work on consoles, but it hasn't been tested on those. Realms can be used to transfer a world with the addon installed.
+从理论上讲，该插件应该可以在主机平台上运行，但尚未在这些主机上进行测试。Realm 可用于传输安装了插件的世界。
 
-## Why isn't the addon working for me?
+## 为什么插件对我不起作用？
 
-There are four possible reasons why your addon may not be working.
+插件无法正常工作的原因有四种可能。
 
-1. You didn't enable both "Holiday Creator Features" and "Enable Gametest Framework".
-2. You didn't apply both the behaviour pack and resource pack to your world.
-3. You are not playing on the right version of Minecraft. As of writing, the addon supports 1.19 and up. 
-4. The addon may be broken for you. There isn't a known reason why, but you can try three things.
+1. 没有同时启用“假日创造者功能”和“测试版 API”。
+2. 没有将行为包和资源包都应用到你的世界/存档。
+3. 没有在正确的 Minecraft 版本上玩游戏。在撰写本文时，该插件支持 1.19 及更高版本。
+4. 插件可能会为您损坏。没有已知的原因，但您可以尝试三件事。
 
-    * Restart Minecraft
-    * Redownload the addon
-    * Reinstall Minecraft
+    * 重新启动我的世界
+    * 重新下载本插件
+    * 重新安装我的世界
 
-    You may report the bug [here](https://github.com/SIsilicon/WorldEdit-BE/issues).
+    您可以在 [此处](https://github.com/SIsilicon/WorldEdit-BE/issues) 报告该错误
 
-## Can I use WorldEdit with other addons?
+## 我可以将WorldEdit与其他addon插件一起使用吗?
 
-It should be compatible with any other addon you have in your world, but said compatibility is not guaranteed.
+它应该与您世界中的任何其他addon插件兼容，但不能保证兼容性。
 
 ## How do I make coloured blocks, different types of wood, etc...?
 
