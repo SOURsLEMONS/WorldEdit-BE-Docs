@@ -1,57 +1,55 @@
-# Quick Start
+# 快速入门
 
-## Before anything else...
+## 首先...
 
-By default, players are not allowed to use WorldEdit. Only those tagged with "worldedit" can use its features. To give yourself all worldedit permissions, enter `/tag @s add worldedit` in chat. You should then receive a message saying that you have been giving WorldEdit permissions.
-
+默认情况下，玩家不允许使用WorldEdit。只有那些标签标记为“worldedit”的人才能使用其功能。
+要授予自己所有世界编辑权限，请在聊天栏输入 /tag @s add worldedit 
+然后您应该会收到一条消息，指出您已获得在授予 WorldEdit 权限。
 !!! Tip
 
-    You can also give other players worldedit permissions by changing `@s` to the player's name. You'll need to surround it in quotes if it has a space in it. Eg: `/tag "Steve Wanderer" add worldedit`
+    您还可以通过指定玩家的名称来授予其他玩家的世界编辑权限如果玩家的名称有空格，则需要用引号括起来。例如：@s/tag "玩家 名称" add worldedit
 
-## Going places
+## 幻影移形(bushi)
 
 !!! Notice
 
-    The commands provided by this addon use a semicolon (;) instead of a bracket (/).
-    In the future, Mojang might add actual custom commands support to Minecraft.
+    此插件提供的命令使用分号作为前缀(;)而不是斜杠(/)。将来，Mojang可能会为Minecraft添加实际的自定义命令支持。
+    
+在复杂的地形间移动有时会很麻烦(很慢)。 幸运的是，这个插件带有所谓的传送器，请输入命令 ;navwand 获得一个末影珍珠 (直接物品栏拿一个也行)
 
-Getting from point A to point B can sometimes be a hassle.
-Luckily, this addon comes with what's known as a Navigation Wand.
-To get one, enter the command `;navwand`, an ender pearl.
-
-Once you have this item, just interact with it to get teleported to the spot you are looking at.
-Want to get on the otherside of a wall or ceiling? Use the wand while sneaking to go right through it!
-Stuck in a block? Using the wand will get you unstuck!
+获得此物品后，只需右键(长按)使用即可传送到您目光所至的位置。¹  
+隔了一堵墙或天花板？潜行使用传送器直接穿过它！ ²  
+卡在方块里？使用传送器会让你解开卡住！³  
 
 !!! Tip
 
-    If you don't want to use the navigation wand, these actions can also be done with the commands `;jumpto`, `;thru` and `;unstuck` as well.
+    如果您不想使用导航棒，也可以使用命令完成这些¹²³操作  ;jumpto ;thru ;unstuck
 
-## Making selections
+## 建立选区
 
-Like the original mod, you use what's known as a selection wand to easily mark regions of your world for all sorts of operations.
-To get one, grab a wooden axe, or enter the command `;wand`.
+与java版原模组相同,您可以使用选择器(小木斧)来标记世界中的区域以便进行各种操作，请拿起木斧，或输入命令。;wand 获得一个小木斧(直接物品栏拿一个也行)
 
-Selections in WorldEdit are cuboid shaped by default.
-To make a selection, you need to mark the two corners of this cuboid.
-You mark the first corner by using the wand on a block at that corner while sneaking.
-You mark the second point by using it on a block _without_ sneaking. 
-If done correctly, you should see a highlight of your selection.
+创世神插件中的选区默认是方体形状的。为了形成一个选区,你需要标记立方体的两个对角:
+第一点的选择方法是潜行状态下对目标点右键(长按)使用选择器;
+第二点对目标点右键(长按)使用选择器，无需潜行(可在空中)
+如果步骤正确，您应该会看到选区的粒子显示。
 
 ![Cuboid Selection](img/cuboid_selection.jpg)
 
-If there's no block for you to mark a corner with, like high in the air, you can also use the commands `;pos1` or `;pos2` to mark the first and second corner respectively, as the position you are currently standing in. This is not the same as the position you are standing _on_.
+如果没有块可供您标记角落，例如在高空中，  
+您还可以使用 命令 分别标记第一个顶点 ;pos1 和第二个顶点 ;pos2 标记的点为玩家站立的位置(膝盖.绿玻璃)，不是脚下的方块。
 
 ![Position Placement](img/pos_placement.jpg)
 
-## Kit items for convenience
+## 快捷工具包
 
-There are many operations in WorldEdit that we may commonly use, such as undoing, and copying structures. To make this addon more convenient for mobile and controller players, it comes with a set of items that act as a shortcut to these common WorldEdit functions. To receive this kit, just type `;kit`.
+WorldEdit 中有许多我们可能常用的操作，例如撤消和复制选区，  
+这些常见 WorldEdit 功能为了使此插件对移动和主机玩家更方便使用，它附带了一组快捷工具，输入命令。;kit 获得一个工具包
 
-## Doing stuff with your selection
+## 来亲自试试
 
-Make a modest sized selection to work with, and have your kit ready.
-We're going to try some of the features WorldEdit has to offer.
+选择适度大小的选择，并准备好您的快捷工具包。 
+我们将尝试WorldEdit提供的一些功能。
 
 1. Place down stone, use the [Pattern Picker](../usage/kit#pattern_picker) on it and use ["Fill Selection"](../usage/kit#selection_fill). A cuboid of stone should be made.
 2. Use the Pattern Picker on the air (mobile players must hold the screen with it) and use "Fill Selection" again to clear the stone.
