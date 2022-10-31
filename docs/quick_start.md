@@ -46,28 +46,28 @@
 WorldEdit 中有许多我们可能常用的操作，例如撤消和复制选区，  
 这些常见 WorldEdit 功能为了使此插件对移动和主机玩家更方便使用，它附带了一组「快捷工具」**电脑右键/手机长按 使用**，输入命令。;kit 获得一个工具包
 
-## 来上手试试
+## 来上手工具试试
 
-准备好您的快捷工具包，使用「选择器」创建一个合适大小的选区
 我们将尝试WorldEdit提供的一些功能。
+准备好您的快捷工具包，使用「选择器」创建一个合适大小的选区
 
-1. 放置一块石头，对其使用 [「填充方块选取器」](../usage/kit#pattern_picker) 然后使用 [「填充选区」](../usage/kit#selection_fill). A cuboid of stone should be made.
-2. Use the Pattern Picker on the air (mobile players must hold the screen with it) and use "Fill Selection" again to clear the stone.
-3. Place down sandstone and glass, use the Pattern pPicker on the sandstone, and sneak and use it on the glass to add to your pattern. Use "Fill Selection" and you should have a mix of sandstone and glass.
-4. Take out the Mask Picker in your inventory and use it on the sandstone. Set a block of your choice as your pattern, and use "Fill Selection". All sandstone should now be replaced with that block.
-5. Repeat your selection upwards by typing the command `;stack 4 up`.
+1. 放置一块石头，对着石头使用 [「填充方块选取器」](../usage/kit#pattern_picker) 然后使用 [「填充选区」](../usage/kit#selection_fill).创造了一个石头立方(选区填充了石头)
+2. 对着空气使用「填充方块选取器」（触屏玩家长按屏幕），然后再次使用「填充选区」来清除石头(将选区填为空气)
+3. 放置一块沙石和一块玻璃，对着沙石使用「填充方块选取器」，然后潜行对着玻璃使用「填充方块选取器」然后再次使用「填充选区」，创造了一个由沙石和玻璃混合的立方(选区混合填充了砂石和玻璃)
+4. 切换到栏中的「取代方块选取器」对着砂岩使用。对着玻璃使用「填充方块选取器」，然后使用「填充选区」。现在所有的砂岩都应该被玻璃代替了。
+5. 输入命令 `;stack 4 up` 选区内的东西将向上复制4次
+ 
+如果您愿意，可以使用「撤消」工具，撤消所有操作(通常25步)直到无法撤消为止。您还应该用于清除以前创建的遮罩(取代方块) ;mask
 
-If you want to you can undo everthing by using the undo item until you can't undo any further. You should also use `;mask` to clear the mask created previously.
+## 玩玩笔刷
 
-## Playing with brushes
+快捷工具包还提供了一种制作笔刷的方法。
 
-The kit also provides a way to make brushes.
-
-1. Get a shovel of any type.
-2. Place down cobblestone; you'll need it for the brush.
-3. Use the [「创世神设置」](../usage/kit#config) item. A menu in your hotbar should appear including "Brush Settings". Select the item, then select the shovel to bind to. Make it a sphere brush of radius 3, and a cobblestone pattern. Confirm the settings and exit the menu.
-4. Aim at the ground not near you and interact with the shovel (now brush) to place cobblestone spheres.
-5. Make it so the brush only affects grass with `;mask grass` while holding the brush. Use the brush now to make a cobblestone path.
+1. 在背包一把任何类型的铲子。
+2. 放置一块圆石，你需要它作为你笔刷的“颜料”
+3. 使用 [「创世神设置」](../usage/kit#config) 工具. 快捷栏中应该会出现一个菜单 ，选择其中的「笔刷设置」. 然后选择要绑定到的铲子。使其成为半径为 3 的球形画笔和圆石填充。并确认设置退出菜单。
+4. 对准不靠近你的地面，使用(电脑右键/手机长按)铲子（现在是刷子）互动以放置圆石球体。
+5. 使刷子在握住刷子时只影响草。现在使用刷子制作鹅卵石路径。
 6. Disable the brush with `;br none` while holding said brush.
 
 ## 现在该做什么?
