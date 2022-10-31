@@ -1,4 +1,4 @@
-# WorldEdit: BE Documentation
+# WorldEdit:BE基岩创世神文档
 
 !!! warning
     
@@ -31,7 +31,7 @@
     - [画笔](usage/brushes.md)
     - [实用命令](usage/utilites.md)
 
-## Links
+## 链接
 
 - [MCPEDL 页面](https://mcpedl.com/worldedit-be-addon)
 - [GitHub 页面](https://github.com/SIsilicon/WorldEdit-BE)
