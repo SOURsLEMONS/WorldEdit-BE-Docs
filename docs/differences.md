@@ -1,6 +1,6 @@
-# Differences
+# 差异
 
-As this addon is still under development, there are a bunch of features that it doesn't have that the original mod does; some features can't be implemented at all due to Minecraft's limitations.
+由于这个插件仍在开发中，因此java原模组有很多功能是没有的;由于 Minecraft 的限制，某些功能根本无法实现。
 
 ## Commands
 
