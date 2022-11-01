@@ -8,28 +8,30 @@
 
 ## 目录
 
-- [安装](installation.md)
-- [快速入门](quick_start.md)
-- [配置](configuration.md)
-- [命令](commands.md)
-- [与java版的差异](differences.md)
-- [常见问题](common_questions.md)
+`汉化程度 √`
+
+- [安装](installation.md) √
+- [快速入门](quick_start.md) √
+- [配置](configuration.md) √
+- [命令](commands.md) 
+- [与java版的差异](differences.md) √
+- [常见问题](common_questions.md) √
 - 用法
     - 基础
-        - [历史记录](usage/general/history.md)
-        - [会话信息](usage/general/sessions.md)
-        - [填充参数](usage/general/patterns.md)
-        - [蒙版和图案](usage/general/masks.md)
+        - [历史记录](usage/general/history.md) √
+        - [会话信息](usage/general/sessions.md) √
+        - [填充参数](usage/general/patterns.md) √
+        - [蒙版和图案](usage/general/masks.md) 
     - 选区
-        - [选区操作](usage/regions/region_operations.md)
-        - [选择选区](usage/regions/selection.md)
-    - [工具包](usage/kit.md)
-    - [领航](usage/navigation.md)
-    - [剪贴板 ](usage/clipboard.md)
-    - [形状生成](usage/generation.md)
-    - [工具魔棒](usage/tools.md)
-    - [画笔](usage/brushes.md)
-    - [实用命令](usage/utilites.md)
+        - [选区操作](usage/regions/region_operations.md) 
+        - [选择选区](usage/regions/selection.md) 
+    - [工具包](usage/kit.md) 
+    - [领航](usage/navigation.md) 
+    - [剪贴板 ](usage/clipboard.md) 
+    - [形状生成](usage/generation.md) 
+    - [工具魔棒](usage/tools.md) 
+    - [画笔](usage/brushes.md) 
+    - [实用命令](usage/utilites.md) 
 
 ## 链接
 
