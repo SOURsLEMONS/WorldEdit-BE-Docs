@@ -38,41 +38,39 @@
 
 ### 随机填充参数模式
 
-可以设置一个随机填充参数，它可以包含多个单块填充参数，像这样(单块填充参数1,单块填充参数2,等等...)设置，逗号分隔每个单块填充参数。这将使各个单块填充参数均匀分布
-想要某个 
+可以设置一个随机填充参数，它可以包含多个单块填充参数，像这样(单块填充参数1,单块填充参数2,等等...)设置，逗号分隔每个单块填充参数。这将使各个单块填充方块均匀分布填充
+想要某个单块填充方块填充占比更多，可以使用百分号(数值%单块填充参数，等等…)，数值越大意味着填充占比就越大，这些数值不强制要求达到 100。
 
-可以制作一个模式来创建其他模式的混合。最简单的方法是制作一个逗号分隔的列表（）。这将使列表的元素均匀分布。要使一种模式比另一种模式更常见，可以向每个元素添加百分比 （）。数字越大意味着被置于手术中的机会就越大。这些数字加起来不必达到 100。
+指令例子↓
 
-可以制作一个随机填充参数，创建其他填充的混合。最简单的方法是制作一个逗号分隔的列表（`填充1，填充2，等等..`）。这个列表的填充将均匀填充。要使一种填充比另一种填充更常见，可以向每个元素添加百分比（“percent%pattern，…”）。数字越大意味着接受手术的机会越大。这些数字加起来不必达到100。
-
-It's possible to make a pattern that creates a mixture of other patterns. The simplest way is to just to make a comma separated list (`pattern1,pattern2,etc...`). This would make an even distribution of the list's elements. To make one pattern more common than an other, you can add percentages to each element (`percent%pattern,...`). A larger number means larger chance of being placed in an operation. The numbers don't have to add up to 100.
 
 !!! Example
 
     `;set dirt,grass`
     
-    This sets the region to half dirt, half grass.
+    这将选区填充一半泥土一半草方块。
     
     `;set 20%*wool,80%stone`
     
-    This sets the region to 20% random wool, and 80% stone.
+    将该选区填充为20%的随机颜色羊毛和80%的石头。
 
-Notice in the last example, how block patterns aren't the only patterns you can use. There's more!
+注意，在最后一个示例中，填充参数不止可以设置随机单方块占比。还有更多!
 
-### Random State Pattern
+### 随机状态参数模式
 
-Random state patterns create blocks with different random states. You make one by prefixing '\*' infront of a block ID. For example, `*log` would make logs of most types and in all directions. Most types because some logs use their own ID.
+随机状态参数模式设置具有不同随机状态的方块。您可以通过在方块ID前面添加“ * ”前缀来创建一个。例如  `\*log` 将生成大多数类型和所有方向的木头。因为有些木头使用自己的ID，所以不会生成。
 
-### Type/State Applying Pattern
 
-Prefixing '^' to a block ID or block states allows you to change that aspect of blocks, and nothing more. Useful for when you want to change the type of a block without changing the orientation for instance.
+### 同状态应用模式
+
+为方块ID或方块状态添加前缀“^”允许您更改块的这一状态，仅此而已。例如，当您想要在不更改方向的情况下更改方块的类型时，此选项非常有用。
 
 !!! Example
 
     `;replace birch_stairs ^acacia_stairs`
     
-    This turns birch stairs into acacia ones while keeping their orientation.
+    这将桦木楼梯变成金合欢楼梯，同时保持其方向。
     
     `;replace wheat ^[growth=7]`
     
-    This makes all wheat crops fully grown.
+    这使所有的小麦作物完全生长。
