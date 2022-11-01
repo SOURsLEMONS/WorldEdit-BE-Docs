@@ -18,7 +18,7 @@
     - 基础
         - [历史记录](usage/general/history.md)
         - [会话信息](usage/general/sessions.md)
-        - [填充](usage/general/patterns.md)
+        - [填充参数](usage/general/patterns.md)
         - [蒙版和图案](usage/general/masks.md)
     - 选区
         - [选区操作](usage/regions/region_operations.md)
