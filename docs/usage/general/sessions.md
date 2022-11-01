@@ -1,14 +1,14 @@
-# Sessions
+# 用户会话
 
-When you select a region or change your preferences in-game, your information will be put into a session that will be kept active as long as you stay logged in. Upon disconnecting, your session will be discarded in 10 minutes (or how long it was set to in [Configuration](../../configuration.md)), allowing you to log back in and keep your session. Every WorldEdit user gets a unique session.
+当您在游戏中选择区域或更改设置选项时，您的信息将被放入会话中，只要您保持登录状态，该会话信息就会保持活动状态。断开连接后，您的会话信息将在 10 分钟后（或在[配置](../../configuration.md)), 中设置为多长时间）被删除，允许您重新登录并保留会话。每个 WorldEdit 用户都会获得一个唯一会话信息。
 
-Sessions contain various things such as the following:
+会话包含各种内容，例如:
 
-- Your current selection
-- Your history
-- Your clipboard
-- Any currently bound tools/brushes
+- 当前的选择填充
+- 历史记录
+- 剪贴板
+- 任何当前绑定的工具/笔刷
 
 !!! warning
 
-    WorldEdit drops all sessions as soon as the world is closed/shut down, so it is not possible to directly copy between worlds or retain most tool bindings after closing a world, or shutting down a server.
+    会话信息是临时的，WorldEdit在世界关闭/关闭后立即删除所有会话，因此无法在世界之间直接复制，也无法在关闭世界或关闭服务器后保留大多数工具绑定。
