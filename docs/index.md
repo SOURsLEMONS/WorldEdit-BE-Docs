@@ -2,7 +2,7 @@
 
 !!! warning
     
-    这是一个正在开发中的插件，依赖于游戏中的实验功能。一定要备份你的世界！
+    这是一个正在开发中的插件，依赖于游戏中的实验功能，一定要备份你的世界！
 
 欢迎! 这是《我的世界》最初Java版的WorldEdit mod一个基岩版移植。这个addon插件将帮助你在《我的世界》中创造你的世界。
 
@@ -17,7 +17,7 @@
 - 用法
     - 基础
         - [历史记录](usage/general/history.md)
-        - [用户会话](usage/general/sessions.md)
+        - [会话信息](usage/general/sessions.md)
         - [放置模式](usage/general/patterns.md)
         - [蒙版和图案](usage/general/masks.md)
     - 选区
