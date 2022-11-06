@@ -3,7 +3,7 @@
 ## 首先...
 
 默认情况下，玩家不允许使用WorldEdit。只有那些标签标记为`“worldedit”`的人才能使用其功能。
-要授予自己所有世界编辑权限，请在聊天栏输入 `/tag @s add worldedit `
+要授予自己所有世界编辑权限，请在聊天栏输入 `/tag @s add worldedit`
 然后您应该会收到一条消息，指出您已获得在授予 WorldEdit 权限。
 
 !!! Tip
